@@ -5,6 +5,7 @@
 h1 {
   margin-bottom: 15px;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #menu{
@@ -17,6 +18,7 @@ p {
   width: 90%;
   height: 170px;
   margin-left: auto;
+  margin-right: 20px;
   padding-left: 2%;
   padding-top: 55px;
   padding-right: 2%;
@@ -37,6 +39,7 @@ right: 0;
 height: 25px;
 width: 150px;
 padding: 25px ;
+padding-top: 10px;
 }
 
 .chicken{
@@ -50,7 +53,8 @@ padding: 25px ;
   right: 0;
   height: 25px;
   width: 150px;
-  padding: 25px ;
+  padding: 25px;
+  padding-top: 10px;
   }
 
   .beef{
@@ -65,7 +69,8 @@ padding: 25px ;
     right: 0;
     height: 25px;
     width: 150px;
-    padding: 25px ;
+    padding: 25px;
+    padding-top: 10px;
     }
 
 /* Simple Responsive Framework. */
@@ -74,7 +79,7 @@ padding: 25px ;
 }
 
 /* Desktop view (992px and above) */
-@media (min-width: 992px) and (max-width: 1200px){
+@media (min-width: 992px) and (max-width: 2000px){
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
   }
